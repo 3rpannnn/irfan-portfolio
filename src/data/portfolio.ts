@@ -423,3 +423,38 @@ export const projects = [
 export function getProjectBySlug(slug: string) {
   return projects.find((project) => project.slug === slug);
 }
+export const achievements = [
+  {
+    year: "2026",
+    type: "Kepemimpinan Penelitian",
+    title: "Ketua Tim Penelitian Institusional Prodi",
+    organization: "Corpus AI",
+    description:
+      "Memimpin kegiatan pengumpulan dataset suara untuk mendukung pengembangan model pengenalan suara.",
+  },
+  {
+    year: "2025",
+    type: "Publikasi Ilmiah",
+    title:
+      "Implementasi Kalman Filter dan Logika Fuzzy untuk Kontrol Adaptif Kecepatan Kipas Berdasarkan Suhu",
+    organization: "Jurnal Nasional Terakreditasi Setara SINTA 3",
+    description:
+      "Publikasi membahas integrasi Kalman Filter dan logika fuzzy untuk meningkatkan kestabilan pembacaan suhu dan respons pengendalian kipas.",
+  },
+  {
+    year: "2025",
+    type: "Penghargaan",
+    title: "Mahasiswa Berprestasi Bidang Penalaran",
+    organization: "Universitas Negeri Yogyakarta",
+    description:
+      "Menerima penghargaan atas capaian akademik, penelitian, publikasi, dan aktivitas penalaran mahasiswa.",
+  },
+  {
+    year: "2024",
+    type: "Kompetisi Nasional",
+    title: "Juara Harapan Kontes Robot Terbang Indonesia",
+    organization: "Tim Az-Zawra Biantara",
+    description:
+      "Berkontribusi dalam pengembangan sistem mekanik UAV pada divisi Technology Development.",
+  },
+];
