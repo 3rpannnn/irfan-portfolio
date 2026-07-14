@@ -217,7 +217,21 @@ export const projects = [
       "Data Collection",
       "Research Management",
     ],
-    featured: true,
+    overview:
+      "Corpus AI merupakan proyek penelitian institusional yang berfokus pada pengumpulan dataset suara. Dataset dikembangkan sebagai sumber data untuk pelatihan model pengenalan suara.",
+    contributions: [
+      "Memimpin pelaksanaan kegiatan penelitian pada tingkat program studi.",
+      "Mengatur proses perekaman suara dari pembicara.",
+      "Mendukung pengumpulan dan pengelompokan data audio.",
+      "Memastikan proses pengambilan data berjalan sesuai kebutuhan penelitian.",
+    ],
+    workflow: [
+      "Menentukan kebutuhan data suara.",
+      "Menyiapkan metode dan perangkat perekaman.",
+      "Melakukan perekaman suara pembicara.",
+      "Mengumpulkan dan mengorganisasi data audio.",
+      "Memeriksa kelengkapan dataset.",
+    ],
   },
   {
     slug: "fuzzy-fan-controller",
@@ -233,7 +247,22 @@ export const projects = [
       "Temperature Sensor",
       "Microcontroller",
     ],
-    featured: true,
+    overview:
+      "Proyek ini mengembangkan sistem pengaturan kecepatan kipas berdasarkan perubahan suhu. Kalman Filter digunakan untuk meningkatkan kestabilan pembacaan sensor, sedangkan logika fuzzy menentukan respons kecepatan kipas.",
+    contributions: [
+      "Merancang alur pembacaan dan pengolahan data suhu.",
+      "Menerapkan Kalman Filter pada data sensor.",
+      "Menyusun aturan kendali berbasis logika fuzzy.",
+      "Mengintegrasikan sensor, mikrokontroler, dan aktuator kipas.",
+      "Melakukan pengujian respons sistem terhadap perubahan suhu.",
+    ],
+    workflow: [
+      "Membaca data sensor suhu.",
+      "Memproses data menggunakan Kalman Filter.",
+      "Menentukan keluaran melalui aturan fuzzy.",
+      "Mengatur kecepatan kipas.",
+      "Mengevaluasi kestabilan respons sistem.",
+    ],
   },
   {
     slug: "iot-smart-bin",
@@ -250,7 +279,22 @@ export const projects = [
       "Telegram Bot",
       "Microcontroller",
     ],
-    featured: true,
+    overview:
+      "Tempat sampah otomatis ini memantau tingkat kepenuhan dan kondisi bau menggunakan sensor. Sistem mengirimkan informasi kepada pengguna melalui Telegram Bot.",
+    contributions: [
+      "Mengintegrasikan sensor gas dan sensor jarak.",
+      "Mengembangkan logika pendeteksian kondisi penuh.",
+      "Mengembangkan pemantauan kondisi bau.",
+      "Menghubungkan mikrokontroler dengan Telegram Bot.",
+      "Menguji pengiriman notifikasi kepada pengguna.",
+    ],
+    workflow: [
+      "Sensor membaca jarak permukaan sampah.",
+      "Sensor gas memantau kondisi udara.",
+      "Mikrokontroler memproses data sensor.",
+      "Sistem menentukan status tempat sampah.",
+      "Telegram Bot mengirimkan peringatan.",
+    ],
   },
   {
     slug: "computer-vision-waste-sorter",
@@ -266,7 +310,21 @@ export const projects = [
       "Object Classification",
       "Machine Learning",
     ],
-    featured: true,
+    overview:
+      "Proyek ini mengembangkan sistem untuk membedakan sampah organik dan anorganik berdasarkan citra. Pengembangan dilakukan melalui pengumpulan data, pembentukan kelas, dan pengujian klasifikasi.",
+    contributions: [
+      "Mengumpulkan data sampah organik dan anorganik.",
+      "Membentuk dua kelas utama untuk proses klasifikasi.",
+      "Menyiapkan dataset gambar untuk pengembangan model.",
+      "Menguji proses identifikasi objek berdasarkan kategori sampah.",
+    ],
+    workflow: [
+      "Mengumpulkan gambar objek sampah.",
+      "Memisahkan gambar berdasarkan kelas.",
+      "Menyiapkan data untuk proses pelatihan.",
+      "Menjalankan proses klasifikasi.",
+      "Mengevaluasi hasil identifikasi.",
+    ],
   },
   {
     slug: "music-genre-analysis",
@@ -282,7 +340,21 @@ export const projects = [
       "Machine Learning",
       "Classification",
     ],
-    featured: false,
+    overview:
+      "Aplikasi ini menganalisis karakteristik audio untuk membantu proses klasifikasi genre musik. Sistem menggunakan potongan audio berdurasi 30 detik sebagai masukan.",
+    contributions: [
+      "Mengembangkan alur pemrosesan data audio.",
+      "Menyiapkan sampel audio berdurasi 30 detik.",
+      "Mengolah fitur audio sebagai masukan klasifikasi.",
+      "Mengembangkan tampilan aplikasi analisis genre.",
+    ],
+    workflow: [
+      "Memasukkan file atau sampel audio.",
+      "Mengambil segmen audio selama 30 detik.",
+      "Memproses karakteristik data audio.",
+      "Menjalankan proses klasifikasi.",
+      "Menampilkan hasil analisis genre.",
+    ],
   },
   {
     slug: "robot-transporter",
@@ -298,7 +370,22 @@ export const projects = [
       "Microcontroller",
       "Motion Control",
     ],
-    featured: false,
+    overview:
+      "Robot transporter dikembangkan untuk bergerak berdasarkan instruksi kinematika. Robot bergerak menuju titik target, melakukan pengambilan objek, dan kembali menuju posisi awal.",
+    contributions: [
+      "Mengembangkan logika pergerakan robot.",
+      "Menerapkan konsep kinematika pada sistem gerak.",
+      "Mengatur urutan pergerakan menuju titik target.",
+      "Mengembangkan proses kembali ke titik awal.",
+      "Menguji ketepatan pergerakan robot.",
+    ],
+    workflow: [
+      "Menentukan posisi awal dan target.",
+      "Menghitung instruksi pergerakan.",
+      "Menggerakkan robot menuju objek.",
+      "Menjalankan proses pengambilan objek.",
+      "Mengembalikan robot ke posisi awal.",
+    ],
   },
   {
     slug: "pid-balancing-seesaw",
@@ -314,6 +401,25 @@ export const projects = [
       "Servo Motor",
       "Microcontroller",
     ],
-    featured: false,
+    overview:
+      "Proyek ini mengembangkan sistem kendali posisi bola pada mekanisme jungkat-jungkit. Sensor ultrasonik mengukur posisi bola dan motor servo mengatur kemiringan berdasarkan keluaran kontrol PID.",
+    contributions: [
+      "Mengintegrasikan sensor ultrasonik dan motor servo.",
+      "Mengembangkan pembacaan posisi bola.",
+      "Menerapkan pengendali PID pada mikrokontroler.",
+      "Melakukan penyesuaian parameter kendali.",
+      "Menguji kestabilan posisi bola.",
+    ],
+    workflow: [
+      "Sensor mengukur posisi bola.",
+      "Sistem menghitung selisih terhadap titik tengah.",
+      "Kontrol PID menentukan nilai koreksi.",
+      "Servo mengubah sudut jungkat-jungkit.",
+      "Proses berulang sampai posisi lebih stabil.",
+    ],
   },
 ];
+
+export function getProjectBySlug(slug: string) {
+  return projects.find((project) => project.slug === slug);
+}
