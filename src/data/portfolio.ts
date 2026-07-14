@@ -202,3 +202,118 @@ export const experiences = [
     ],
   },
 ];
+export const projects = [
+  {
+    slug: "corpus-ai",
+    title: "Corpus AI",
+    year: "2026",
+    category: "Artificial Intelligence",
+    description:
+      "Pengumpulan dataset suara pembicara untuk mendukung pelatihan dan pengembangan model pengenalan suara.",
+    role: "Ketua Tim Penelitian Institusional Prodi",
+    technologies: [
+      "Speech Dataset",
+      "Audio Recording",
+      "Data Collection",
+      "Research Management",
+    ],
+    featured: true,
+  },
+  {
+    slug: "fuzzy-fan-controller",
+    title: "Kipas Angin dengan Fuzzy Logic",
+    year: "2025",
+    category: "Control System",
+    description:
+      "Sistem kontrol adaptif kecepatan kipas berdasarkan suhu dengan Kalman Filter dan logika fuzzy.",
+    role: "System Developer",
+    technologies: [
+      "Fuzzy Logic",
+      "Kalman Filter",
+      "Temperature Sensor",
+      "Microcontroller",
+    ],
+    featured: true,
+  },
+  {
+    slug: "iot-smart-bin",
+    title: "Tempat Sampah Otomatis Berbasis IoT",
+    year: "2025",
+    category: "Internet of Things",
+    description:
+      "Sistem monitoring kondisi penuh dan bau pada tempat sampah dengan notifikasi melalui Telegram Bot.",
+    role: "IoT Developer",
+    technologies: [
+      "IoT",
+      "Gas Sensor",
+      "Distance Sensor",
+      "Telegram Bot",
+      "Microcontroller",
+    ],
+    featured: true,
+  },
+  {
+    slug: "computer-vision-waste-sorter",
+    title: "Pemilah Sampah Berbasis Computer Vision",
+    year: "2025",
+    category: "Computer Vision",
+    description:
+      "Sistem klasifikasi sampah organik dan anorganik menggunakan dataset gambar dan computer vision.",
+    role: "Computer Vision Developer",
+    technologies: [
+      "Computer Vision",
+      "Image Dataset",
+      "Object Classification",
+      "Machine Learning",
+    ],
+    featured: true,
+  },
+  {
+    slug: "music-genre-analysis",
+    title: "Aplikasi Analisis Genre Musik",
+    year: "2025",
+    category: "Machine Learning",
+    description:
+      "Aplikasi untuk menganalisis genre musik berdasarkan sampel audio yang diputar selama 30 detik.",
+    role: "Application Developer",
+    technologies: [
+      "Python",
+      "Audio Processing",
+      "Machine Learning",
+      "Classification",
+    ],
+    featured: false,
+  },
+  {
+    slug: "robot-transporter",
+    title: "Robot Transporter dengan Kinematika",
+    year: "2025",
+    category: "Robotics",
+    description:
+      "Robot transporter yang bergerak menuju titik tertentu, mengambil objek, dan kembali ke posisi awal.",
+    role: "Robotics Developer",
+    technologies: [
+      "Robotics",
+      "Kinematics",
+      "Microcontroller",
+      "Motion Control",
+    ],
+    featured: false,
+  },
+  {
+    slug: "pid-balancing-seesaw",
+    title: "Balancing Seesaw dengan PID",
+    year: "2024",
+    category: "Control System",
+    description:
+      "Sistem jungkat-jungkit dengan bola yang dikendalikan menggunakan sensor ultrasonik, servo, dan kontrol PID.",
+    role: "Control System Developer",
+    technologies: [
+      "PID Control",
+      "Ultrasonic Sensor",
+      "Servo Motor",
+      "Microcontroller",
+    ],
+    featured: false,
+  },
+];
