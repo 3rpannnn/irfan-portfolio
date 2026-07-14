@@ -117,3 +117,88 @@ export const skillGroups = [
     ],
   },
 ];
+export const experiences = [
+  {
+    organization: "Robotika UNY",
+    role: "Tim AZ-Zawra Biantara",
+    period: "2023 - 2025",
+    location: "Universitas Negeri Yogyakarta",
+    description:
+      "Berpartisipasi dalam pengembangan robot untuk kebutuhan kompetisi robotik nasional melalui integrasi sistem mekanik dan elektronika.",
+    responsibilities: [
+      "Merancang, membangun, mengintegrasikan, dan mengevaluasi sistem mekanik serta elektronik robot.",
+      "Mengintegrasikan komponen mekanik dan elektronik untuk mendukung performa sistem.",
+      "Bekerja dalam tim multidisiplin untuk mencapai target pengembangan robot.",
+    ],
+    technologies: [
+      "Robotics",
+      "Mechanical Integration",
+      "Electronics",
+      "Hardware Integration",
+    ],
+  },
+  {
+    organization: "Kontes Robot Terbang Indonesia",
+    role: "Tim Mekanik Flying Wing Tricopter Tilt Rotor",
+    period: "2024 - 2025",
+    location: "Divisi Technology Development",
+    description:
+      "Berkontribusi dalam pengembangan pesawat Flying Wing Tricopter dengan mekanisme tilt rotor.",
+    responsibilities: [
+      "Membuat molding dan struktur badan pesawat menggunakan hard foam, resin, dan carbon fiber.",
+      "Memotong hard foam menggunakan hot wire berdasarkan desain mekanik.",
+      "Menyiapkan jalur kabel dan mounting servo, motor, flight controller, baterai, dan GPS.",
+      "Mendukung integrasi mekanik dan elektronik pada sistem UAV.",
+    ],
+    technologies: [
+      "UAV",
+      "Tilt Rotor",
+      "Carbon Fiber",
+      "Flight Controller",
+      "Mechanical Design",
+    ],
+  },
+  {
+    organization: "Kontes Robot Terbang Indonesia",
+    role: "Tim Mekanik UAV Hybrid Tailsitter",
+    period: "2023 - 2024",
+    location: "Divisi Technology Development",
+    description:
+      "Berkontribusi dalam pengembangan Autonomous Multi Agent Avionics System pada pesawat tanpa awak Hybrid Tailsitter.",
+    responsibilities: [
+      "Membuat molding dan struktur badan pesawat menggunakan hard foam, resin, dan carbon fiber.",
+      "Melakukan proses laminasi hard foam menggunakan resin dan carbon fiber.",
+      "Membuat jalur kabel dan mounting komponen elektronik.",
+      "Mendukung integrasi motor, servo, flight controller, baterai, dan GPS.",
+    ],
+    technologies: [
+      "Hybrid Tailsitter",
+      "Avionics",
+      "UAV Integration",
+      "Resin Lamination",
+      "Carbon Fiber",
+    ],
+  },
+  {
+    organization: "DC Computer",
+    role: "Teknisi Magang",
+    period: "2022",
+    location: "Blitar, Jawa Timur",
+    description:
+      "Melaksanakan pemeriksaan, perbaikan, dan instalasi perangkat komputer, printer, serta jaringan.",
+    responsibilities: [
+      "Menganalisis kerusakan komputer, printer, jaringan, dan perangkat pendukung.",
+      "Merakit komputer untuk kebutuhan operasional.",
+      "Melakukan instalasi ulang sistem operasi dan perangkat lunak.",
+      "Memperbaiki serta melakukan kalibrasi tinta printer.",
+      "Membuat jalur kabel dan memasang jaringan Wi-Fi berbasis fiber optik.",
+    ],
+    technologies: [
+      "Computer Hardware",
+      "Troubleshooting",
+      "Networking",
+      "Fiber Optic",
+      "Software Installation",
+    ],
+  },
+];
