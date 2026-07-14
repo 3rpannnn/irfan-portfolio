@@ -12,6 +12,8 @@ export const profile = {
   linkedin: "https://linkedin.com/in/muhammadirfanaprianto",
   github: "https://github.com/3rpannnn",
   cv: "/documents/muhammad-irfan-aprianto-cv.pdf",
+  image: "/images/profile/muhammad-irfan-aprianto-profile.png",
+  unyLogo: "/images/branding/uny-logo.png",
 };
 export const statistics = [
   {
@@ -423,14 +425,24 @@ export const projects = [
 export function getProjectBySlug(slug: string) {
   return projects.find((project) => project.slug === slug);
 }
-export const achievements = [
+export type Achievement = {
+  year: string;
+  type: string;
+  title: string;
+  organization: string;
+  description: string;
+  image?: string;
+  imageAlt?: string;
+};
+
+export const achievements: Achievement[] = [
   {
     year: "2026",
     type: "Kepemimpinan Penelitian",
     title: "Ketua Tim Penelitian Institusional Prodi",
     organization: "Corpus AI",
     description:
-      "Memimpin kegiatan pengumpulan dataset suara untuk mendukung pengembangan model pengenalan suara.",
+      "Memimpin kegiatan pengumpulan dataset suara pembicara untuk mendukung pengembangan model pengenalan suara.",
   },
   {
     year: "2025",
@@ -439,22 +451,33 @@ export const achievements = [
       "Implementasi Kalman Filter dan Logika Fuzzy untuk Kontrol Adaptif Kecepatan Kipas Berdasarkan Suhu",
     organization: "Jurnal Nasional Terakreditasi Setara SINTA 3",
     description:
-      "Publikasi membahas integrasi Kalman Filter dan logika fuzzy untuk meningkatkan kestabilan pembacaan suhu dan respons pengendalian kipas.",
+      "Publikasi membahas integrasi Kalman Filter dan logika fuzzy untuk meningkatkan kestabilan pembacaan sensor suhu dan respons pengendalian kipas.",
+    image: "/images/publications/publikasi-kalman-fuzzy-2025.png",
+    imageAlt:
+      "Publikasi ilmiah Kalman Filter dan logika fuzzy oleh Muhammad Irfan Aprianto",
   },
   {
-    year: "2025",
-    type: "Penghargaan",
-    title: "Mahasiswa Berprestasi Bidang Penalaran",
-    organization: "Universitas Negeri Yogyakarta",
-    description:
-      "Menerima penghargaan atas capaian akademik, penelitian, publikasi, dan aktivitas penalaran mahasiswa.",
+  year: "2025",
+  type: "Penghargaan Akademik",
+  title: "Mahasiswa Berprestasi Bidang Penalaran",
+  organization: "Universitas Negeri Yogyakarta",
+  description:
+    "Menerima penghargaan dalam bidang penalaran atas capaian penelitian, publikasi ilmiah, kompetisi, dan aktivitas akademik.",
+  image:
+    "/images/achievements/sertifikat-mahasiswa-berprestasi-uny-2025.jpg",
+  imageAlt:
+    "Sertifikat Mahasiswa Berprestasi Bidang Penalaran Universitas Negeri Yogyakarta tahun 2025",
   },
   {
     year: "2024",
     type: "Kompetisi Nasional",
-    title: "Juara Harapan Kontes Robot Terbang Indonesia",
+    title: "Penghargaan Mekanik Kontes Robot Terbang Indonesia",
     organization: "Tim Az-Zawra Biantara",
     description:
-      "Berkontribusi dalam pengembangan sistem mekanik UAV pada divisi Technology Development.",
+      "Berkontribusi sebagai anggota tim mekanik dalam pengembangan struktur dan integrasi sistem UAV pada divisi Technology Development KRTI 2024.",
+    image:
+      "/images/achievements/sertifikat-penghargaan-mekanik-krti-2024.jpg",
+    imageAlt:
+      "Sertifikat penghargaan mekanik Kontes Robot Terbang Indonesia 2024",
   },
 ];
